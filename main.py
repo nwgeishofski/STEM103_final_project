@@ -4,7 +4,7 @@ from hangmanclass import Hangman
 
 
 # create word_list and play_again
-word_list = ["hangman", "python", "washington", "everett", "snorlax", "bulbasaur"]
+word_list = ["gorilla", "penguin", "snake", "raccoon", "whale", "raven", "giraffe"]
 play_again = "y"
 
 # in outer while loop
