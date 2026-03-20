@@ -40,6 +40,7 @@ while play_again == "y":
                 print("\n")
             else:
                 print("Incorrect guess!")
+                print("\n")
                 game.add_drawn_part()
 
     # check if game is won
