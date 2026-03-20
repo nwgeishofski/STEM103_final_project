@@ -10,7 +10,7 @@ play_again = "y"
 # in outer while loop
 
 while play_again == "y":
-    
+    print("**********HANGPERSON**********")
     # select word
     winning_word = choose_word(word_list)
     
@@ -37,6 +37,7 @@ while play_again == "y":
 
             if guess in game.winning_word:
                 print("Correct guess!")
+                print("\n")
             else:
                 print("Incorrect guess!")
                 game.add_drawn_part()

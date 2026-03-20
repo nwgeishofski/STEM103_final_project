@@ -5,7 +5,7 @@ class Hangman:
     def __init__(self, selected_word):
         self.winning_word = selected_word
         self.guessed_letters = []
-        self.body_parts = ["Head", "Torso", "r_arm", "l_arm", "r_leg", "l_leg", "shoes"]
+        self.body_parts = ["Head", "Torso", "right_arm", "left_arm", "right_leg", "left_leg", "shoes"]
         self.body_parts_drawn = 0
 
 # function add parts to "drawing"
